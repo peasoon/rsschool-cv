@@ -40,7 +40,7 @@ Was born not very far. Graduated school and some others near-educational institu
 ```
 
 ## Previous jobs:
-* Flusher(long time ago); 
+* Flusher(long long times ago); 
 * Sewer on a collective farm(from ancient times to present days)
 
 ## Education:
