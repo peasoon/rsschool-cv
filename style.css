@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+  margin-top: 140px;
+  text-align: center;
+  font-size: 40px;
+}
