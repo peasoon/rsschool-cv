@@ -1,11 +1,98 @@
-body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --wrapper: 1920px;
+  --container: 1220px;
+}
+
+body,
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  color: red;
-  margin-top: 140px;
-  text-align: center;
-  font-size: 40px;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
+
+.wrapper {
+  max-width: var(--wrapper);
+  margin: 0 auto;
+  border: 1px solid #e2e2e2;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header h1 {
+  padding: 20px 0;
+  font-family: "Pushster", cursive;
+  font-size: 42px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+main.page section h2 {
+  color: red;
+}
+
+/* Section name */
+main.page section.name span {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+main.page section.name .image {
+  width: 30%;
+  border: 3px solid #e2e2e2;
+}
+
+main.page section.name .image img {
+  width: 100%;
+}
+/* End of section name */
+
+/* Section contacts */
+main.page section.contacts ul.contacts-list {
+  list-style: none;
+}
+
+main.page section.contacts ul.contacts-list li > span {
+  font-weight: 700;
+}
+main.page section.contacts ul.contacts-list li > mark {
+  background-color: transparent;
+}
+
+main.page section.contacts ul.contacts-list li > a {
+  padding: 10px;
+  text-decoration: none;
+  color: #383232;
+  transition: all 0.4s ease;
+}
+
+main.page section.contacts ul.contacts-list li > a:hover {
+  background-color: aliceblue;
+  text-decoration: underline;
+}
+
+main.page section.contacts ul.contacts-list li + li {
+  margin-top: 10px;
+}
+
+/* End of section contacts */
+
+/* Section summary */
+main.page section.summary p {
+  max-width: 40%;
+  line-height: 1.4;
+}
+/* End of section summary */
