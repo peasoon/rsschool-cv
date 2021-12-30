@@ -96,3 +96,29 @@ main.page section.summary p {
   line-height: 1.4;
 }
 /* End of section summary */
+
+/* Section skillset */
+main.page section.skillset > ul {
+  padding-left: 20px;
+}
+
+main.page section.skillset > ul li + li {
+  margin-top: 15px;
+}
+main.page section.skillset > ul li > ul {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+main.page section.skillset > ul li > ul li + li {
+  margin-top: 5px;
+}
+/* End of section skillset */
+
+/* Section education */
+main.page section.education > ul {
+  padding-left: 20px;
+}
+main.page section.education li + li {
+  margin-top: 10px;
+}
+/* end of section education */
